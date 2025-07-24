@@ -2,8 +2,10 @@
   "version": "5",
   "specifiers": {
     "npm:@lancedb/lancedb@*": "0.21.1_apache-arrow@18.1.0",
-    "npm:@langchain/community@*": "0.3.48_@browserbasehq+stagehand@1.14.0__@playwright+test@1.54.1__deepmerge@4.3.1__dotenv@16.6.1__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__ws@8.18.3__zod@4.0.5_@ibm-cloud+watsonx-ai@1.6.8_@lancedb+lancedb@0.21.1__apache-arrow@18.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_ibm-cloud-sdk-core@5.4.0__axios@1.10.0_ignore@7.0.5_lodash@4.17.21_openai@5.9.0__zod@4.0.5__ws@8.18.3_pdf-parse@1.1.1_zod@3.25.76_zod@4.0.5",
+    "npm:@langchain/community@*": "0.3.48_@browserbasehq+stagehand@1.14.0__@playwright+test@1.54.1__deepmerge@4.3.1__dotenv@16.6.1__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76__ws@8.18.3_@ibm-cloud+watsonx-ai@1.6.8_@lancedb+lancedb@0.21.1__apache-arrow@18.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_ibm-cloud-sdk-core@5.4.0__axios@1.10.0_ignore@7.0.5_lodash@4.17.21_openai@5.9.0__zod@4.0.5__ws@8.18.3_pdf-parse@1.1.1_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5_@langchain+ollama@0.1.5__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5",
     "npm:@langchain/core@0.1.48": "0.1.48_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@3.25.76_zod@4.0.5",
+    "npm:@langchain/ollama@*": "0.2.3_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
+    "npm:@langchain/ollama@0.1.5": "0.1.5_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
     "npm:@langchain/openai@0.0.22": "0.0.22_zod@3.25.76_openai@4.104.0__zod@3.25.76",
     "npm:cheerio@*": "1.1.0",
     "npm:faiss-node@*": "0.5.1",
@@ -82,7 +84,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@browserbasehq/sdk/-/sdk-2.6.0.tgz"
     },
-    "@browserbasehq/stagehand@1.14.0_@playwright+test@1.54.1_deepmerge@4.3.1_dotenv@16.6.1_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@3.25.76_ws@8.18.3_zod@4.0.5": {
+    "@browserbasehq/stagehand@1.14.0_@playwright+test@1.54.1_deepmerge@4.3.1_dotenv@16.6.1_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_ws@8.18.3": {
       "integrity": "sha512-Hi/EzgMFWz+FKyepxHTrqfTPjpsuBS4zRy3e9sbMpBgLPv+9c0R+YZEvS7Bw4mTS66QtvvURRT6zgDGFotthVQ==",
       "dependencies": [
         "@anthropic-ai/sdk@0.27.3",
@@ -90,7 +92,7 @@
         "@playwright/test",
         "deepmerge",
         "dotenv",
-        "openai@5.9.0_zod@4.0.5_ws@8.18.3",
+        "openai@5.9.0_ws@8.18.3_zod@3.25.76",
         "ws",
         "zod@3.25.76",
         "zod-to-json-schema@3.24.6_zod@3.25.76"
@@ -256,14 +258,14 @@
       ],
       "tarball": "https://registry.npmmirror.com/@langchain/community/-/community-0.0.57.tgz"
     },
-    "@langchain/community@0.3.48_@browserbasehq+stagehand@1.14.0__@playwright+test@1.54.1__deepmerge@4.3.1__dotenv@16.6.1__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__ws@8.18.3__zod@4.0.5_@ibm-cloud+watsonx-ai@1.6.8_@lancedb+lancedb@0.21.1__apache-arrow@18.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_ibm-cloud-sdk-core@5.4.0__axios@1.10.0_ignore@7.0.5_lodash@4.17.21_openai@5.9.0__zod@4.0.5__ws@8.18.3_pdf-parse@1.1.1_zod@3.25.76_zod@4.0.5": {
+    "@langchain/community@0.3.48_@browserbasehq+stagehand@1.14.0__@playwright+test@1.54.1__deepmerge@4.3.1__dotenv@16.6.1__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76__ws@8.18.3_@ibm-cloud+watsonx-ai@1.6.8_@lancedb+lancedb@0.21.1__apache-arrow@18.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_ibm-cloud-sdk-core@5.4.0__axios@1.10.0_ignore@7.0.5_lodash@4.17.21_openai@5.9.0__zod@4.0.5__ws@8.18.3_pdf-parse@1.1.1_zod@3.25.76": {
       "integrity": "sha512-0KceBKSx34lL5cnbKybWIMQAFTgkZJMOzcZ1YdcagIwgoDa5a4MsJdtTABxaY0gu+87Uo3KqMj+GXx2wQqnZWA==",
       "dependencies": [
         "@browserbasehq/stagehand",
         "@ibm-cloud/watsonx-ai",
         "@lancedb/lancedb",
-        "@langchain/core@0.1.48_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@3.25.76_zod@4.0.5",
-        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
         "@langchain/weaviate",
         "binary-extensions",
         "cheerio",
@@ -272,10 +274,76 @@
         "ibm-cloud-sdk-core",
         "ignore",
         "js-yaml",
-        "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
-        "langsmith@0.3.45_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
+        "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_cheerio@1.1.0_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
         "lodash",
-        "openai@5.9.0_zod@4.0.5_ws@8.18.3",
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3",
+        "pdf-parse",
+        "uuid@10.0.0",
+        "zod@3.25.76"
+      ],
+      "optionalPeers": [
+        "@lancedb/lancedb",
+        "cheerio",
+        "ignore",
+        "lodash",
+        "pdf-parse"
+      ],
+      "tarball": "https://registry.npmmirror.com/@langchain/community/-/community-0.3.48.tgz"
+    },
+    "@langchain/community@0.3.48_@browserbasehq+stagehand@1.14.0__@playwright+test@1.54.1__deepmerge@4.3.1__dotenv@16.6.1__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76__ws@8.18.3_@ibm-cloud+watsonx-ai@1.6.8_@lancedb+lancedb@0.21.1__apache-arrow@18.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_ibm-cloud-sdk-core@5.4.0__axios@1.10.0_ignore@7.0.5_lodash@4.17.21_openai@5.9.0__zod@4.0.5__ws@8.18.3_pdf-parse@1.1.1_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5": {
+      "integrity": "sha512-0KceBKSx34lL5cnbKybWIMQAFTgkZJMOzcZ1YdcagIwgoDa5a4MsJdtTABxaY0gu+87Uo3KqMj+GXx2wQqnZWA==",
+      "dependencies": [
+        "@browserbasehq/stagehand",
+        "@ibm-cloud/watsonx-ai",
+        "@lancedb/lancedb",
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
+        "@langchain/weaviate",
+        "binary-extensions",
+        "cheerio",
+        "expr-eval",
+        "flat",
+        "ibm-cloud-sdk-core",
+        "ignore",
+        "js-yaml",
+        "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_cheerio@1.1.0_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5",
+        "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "lodash",
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3",
+        "pdf-parse",
+        "uuid@10.0.0",
+        "zod@3.25.76"
+      ],
+      "optionalPeers": [
+        "@lancedb/lancedb",
+        "cheerio",
+        "ignore",
+        "lodash",
+        "pdf-parse"
+      ],
+      "tarball": "https://registry.npmmirror.com/@langchain/community/-/community-0.3.48.tgz"
+    },
+    "@langchain/community@0.3.48_@browserbasehq+stagehand@1.14.0__@playwright+test@1.54.1__deepmerge@4.3.1__dotenv@16.6.1__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76__ws@8.18.3_@ibm-cloud+watsonx-ai@1.6.8_@lancedb+lancedb@0.21.1__apache-arrow@18.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_ibm-cloud-sdk-core@5.4.0__axios@1.10.0_ignore@7.0.5_lodash@4.17.21_openai@5.9.0__zod@4.0.5__ws@8.18.3_pdf-parse@1.1.1_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5_@langchain+ollama@0.1.5__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5": {
+      "integrity": "sha512-0KceBKSx34lL5cnbKybWIMQAFTgkZJMOzcZ1YdcagIwgoDa5a4MsJdtTABxaY0gu+87Uo3KqMj+GXx2wQqnZWA==",
+      "dependencies": [
+        "@browserbasehq/stagehand",
+        "@ibm-cloud/watsonx-ai",
+        "@lancedb/lancedb",
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
+        "@langchain/weaviate",
+        "binary-extensions",
+        "cheerio",
+        "expr-eval",
+        "flat",
+        "ibm-cloud-sdk-core",
+        "ignore",
+        "js-yaml",
+        "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_cheerio@1.1.0_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5_@langchain+ollama@0.1.5__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5",
+        "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "lodash",
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3",
         "pdf-parse",
         "uuid@10.0.0",
         "zod@3.25.76"
@@ -314,6 +382,40 @@
         "decamelize",
         "js-tiktoken",
         "langsmith@0.1.68_openai@5.9.0__ws@8.18.3__zod@3.25.76_zod@3.25.76",
+        "ml-distance",
+        "p-queue",
+        "p-retry",
+        "uuid@9.0.1",
+        "zod@3.25.76",
+        "zod-to-json-schema@3.24.6_zod@3.25.76"
+      ],
+      "tarball": "https://registry.npmmirror.com/@langchain/core/-/core-0.1.48.tgz"
+    },
+    "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76": {
+      "integrity": "sha512-kGggyDbaYzCIPGkzvMvm/v0+lcTy1jlX6QZ7PSzUQFYJg5JK399x3AOYIDkbbUVxBAyHRgrWlxVQXH0FW3N6Bg==",
+      "dependencies": [
+        "ansi-styles@5.2.0",
+        "camelcase",
+        "decamelize",
+        "js-tiktoken",
+        "langsmith@0.1.68_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "ml-distance",
+        "p-queue",
+        "p-retry",
+        "uuid@9.0.1",
+        "zod@3.25.76",
+        "zod-to-json-schema@3.24.6_zod@3.25.76"
+      ],
+      "tarball": "https://registry.npmmirror.com/@langchain/core/-/core-0.1.48.tgz"
+    },
+    "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_zod@4.0.5": {
+      "integrity": "sha512-kGggyDbaYzCIPGkzvMvm/v0+lcTy1jlX6QZ7PSzUQFYJg5JK399x3AOYIDkbbUVxBAyHRgrWlxVQXH0FW3N6Bg==",
+      "dependencies": [
+        "ansi-styles@5.2.0",
+        "camelcase",
+        "decamelize",
+        "js-tiktoken",
+        "langsmith@0.1.68_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_zod@4.0.5",
         "ml-distance",
         "p-queue",
         "p-retry",
@@ -376,6 +478,24 @@
       ],
       "tarball": "https://registry.npmmirror.com/@langchain/core/-/core-0.1.63.tgz"
     },
+    "@langchain/ollama@0.1.5_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
+      "integrity": "sha512-S2tF94uIJtXavekKg10LvTV+jIelOIrubaCnje8BopfiNOVcnzsSulUL4JH0wvdxMZq0vbE4/i9RwC2q9ivOmA==",
+      "dependencies": [
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "ollama",
+        "uuid@10.0.0"
+      ],
+      "tarball": "https://registry.npmmirror.com/@langchain/ollama/-/ollama-0.1.5.tgz"
+    },
+    "@langchain/ollama@0.2.3_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
+      "integrity": "sha512-1Obe45jgQspqLMBVlayQbGdywFmri8DgmGRdzNu0li56cG5RReYlRCFVDZBRMMvF9JhsP5eXRyfyivtKfITHWQ==",
+      "dependencies": [
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_zod@4.0.5",
+        "ollama",
+        "uuid@10.0.0"
+      ],
+      "tarball": "https://registry.npmmirror.com/@langchain/ollama/-/ollama-0.2.3.tgz"
+    },
     "@langchain/openai@0.0.22_zod@3.25.76_openai@4.104.0__zod@3.25.76": {
       "integrity": "sha512-mkXRSeedwCzPnfvp1kvaGBXyVWTB86n77pUyw5bC9ka43/cPBHZdHlSnTZMuJi3H4RnV4CMxunaOlm+s7NWfxQ==",
       "dependencies": [
@@ -398,7 +518,7 @@
       ],
       "tarball": "https://registry.npmmirror.com/@langchain/openai/-/openai-0.0.34.tgz"
     },
-    "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76": {
+    "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76": {
       "integrity": "sha512-CX1kOTbT5xVFNdtLjnM0GIYNf+P7oMSu+dGCFxxWRa3dZwWiuyuBXCm+dToUGxDLnsHuV1bKBtIzrY1mLq/A1Q==",
       "dependencies": [
         "@langchain/core@0.1.48_openai@5.9.0__ws@8.18.3__zod@3.25.76_zod@3.25.76",
@@ -408,18 +528,18 @@
       ],
       "tarball": "https://registry.npmmirror.com/@langchain/openai/-/openai-0.5.18.tgz"
     },
-    "@langchain/textsplitters@0.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
+    "@langchain/textsplitters@0.1.0_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_openai@5.9.0__zod@3.25.76__ws@8.18.3": {
       "integrity": "sha512-djI4uw9rlkAb5iMhtLED+xJebDdAG935AdP4eRTB02R7OB/act55Bj9wsskhZsvuyQRpO4O1wQOp85s6T6GWmw==",
       "dependencies": [
-        "@langchain/core@0.1.48_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@3.25.76_zod@4.0.5",
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
         "js-tiktoken"
       ],
       "tarball": "https://registry.npmmirror.com/@langchain/textsplitters/-/textsplitters-0.1.0.tgz"
     },
-    "@langchain/weaviate@0.2.1_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
+    "@langchain/weaviate@0.2.1_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_openai@5.9.0__zod@3.25.76__ws@8.18.3": {
       "integrity": "sha512-rlfAKF+GB0A5MUrol34oDrBkl4q6AefARk9KDW+LfzhV/74pZZLZyIPYPxvE4XwI3gvpwp024DNsDxK/4UW0/g==",
       "dependencies": [
-        "@langchain/core@0.1.48_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@3.25.76_zod@4.0.5",
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
         "uuid@10.0.0",
         "weaviate-client"
       ],
@@ -1276,17 +1396,17 @@
       ],
       "tarball": "https://registry.npmmirror.com/langchain/-/langchain-0.1.29.tgz"
     },
-    "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_cheerio@1.1.0_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
+    "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_cheerio@1.1.0_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76": {
       "integrity": "sha512-L389pKlApVJPqu4hp58qY6NZAobI+MFPoBjSfjT1z3mcxtB68wLFGhaH4DVsTVg21NYO+0wTEoz24BWrxu9YGw==",
       "dependencies": [
-        "@langchain/core@0.1.48_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@3.25.76_zod@4.0.5",
-        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
         "@langchain/textsplitters",
         "cheerio",
         "js-tiktoken",
         "js-yaml",
         "jsonpointer",
-        "langsmith@0.3.45_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
+        "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
         "openapi-types",
         "p-retry",
         "uuid@10.0.0",
@@ -1294,6 +1414,54 @@
         "zod@3.25.76"
       ],
       "optionalPeers": [
+        "cheerio"
+      ],
+      "tarball": "https://registry.npmmirror.com/langchain/-/langchain-0.3.29.tgz"
+    },
+    "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_cheerio@1.1.0_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5": {
+      "integrity": "sha512-L389pKlApVJPqu4hp58qY6NZAobI+MFPoBjSfjT1z3mcxtB68wLFGhaH4DVsTVg21NYO+0wTEoz24BWrxu9YGw==",
+      "dependencies": [
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "@langchain/ollama@0.2.3_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
+        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
+        "@langchain/textsplitters",
+        "cheerio",
+        "js-tiktoken",
+        "js-yaml",
+        "jsonpointer",
+        "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "openapi-types",
+        "p-retry",
+        "uuid@10.0.0",
+        "yaml",
+        "zod@3.25.76"
+      ],
+      "optionalPeers": [
+        "@langchain/ollama@0.2.3_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
+        "cheerio"
+      ],
+      "tarball": "https://registry.npmmirror.com/langchain/-/langchain-0.3.29.tgz"
+    },
+    "langchain@0.3.29_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_cheerio@1.1.0_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_@langchain+ollama@0.2.3__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5_@langchain+ollama@0.1.5__@langchain+core@0.1.48___openai@5.9.0____zod@4.0.5____ws@8.18.3___zod@3.25.76___zod@4.0.5__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@4.0.5": {
+      "integrity": "sha512-L389pKlApVJPqu4hp58qY6NZAobI+MFPoBjSfjT1z3mcxtB68wLFGhaH4DVsTVg21NYO+0wTEoz24BWrxu9YGw==",
+      "dependencies": [
+        "@langchain/core@0.1.48_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "@langchain/ollama@0.1.5_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
+        "@langchain/openai@0.5.18_@langchain+core@0.1.48__openai@5.9.0___zod@3.25.76___ws@8.18.3__zod@3.25.76_zod@3.25.76_openai@5.9.0__ws@8.18.3__zod@3.25.76",
+        "@langchain/textsplitters",
+        "cheerio",
+        "js-tiktoken",
+        "js-yaml",
+        "jsonpointer",
+        "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76",
+        "openapi-types",
+        "p-retry",
+        "uuid@10.0.0",
+        "yaml",
+        "zod@3.25.76"
+      ],
+      "optionalPeers": [
+        "@langchain/ollama@0.1.5_@langchain+core@0.1.48__openai@5.9.0___zod@4.0.5___ws@8.18.3__zod@3.25.76__zod@4.0.5_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5",
         "cheerio"
       ],
       "tarball": "https://registry.npmmirror.com/langchain/-/langchain-0.3.29.tgz"
@@ -1334,6 +1502,38 @@
       ],
       "tarball": "https://registry.npmmirror.com/langsmith/-/langsmith-0.1.68.tgz"
     },
+    "langsmith@0.1.68_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76": {
+      "integrity": "sha512-otmiysWtVAqzMx3CJ4PrtUBhWRG5Co8Z4o7hSZENPjlit9/j3/vm3TSvbaxpDYakZxtMjhkcJTqrdYFipISEiQ==",
+      "dependencies": [
+        "@types/uuid",
+        "commander",
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3",
+        "p-queue",
+        "p-retry",
+        "semver",
+        "uuid@10.0.0"
+      ],
+      "optionalPeers": [
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3"
+      ],
+      "tarball": "https://registry.npmmirror.com/langsmith/-/langsmith-0.1.68.tgz"
+    },
+    "langsmith@0.1.68_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76_zod@4.0.5": {
+      "integrity": "sha512-otmiysWtVAqzMx3CJ4PrtUBhWRG5Co8Z4o7hSZENPjlit9/j3/vm3TSvbaxpDYakZxtMjhkcJTqrdYFipISEiQ==",
+      "dependencies": [
+        "@types/uuid",
+        "commander",
+        "openai@5.9.0_zod@4.0.5_ws@8.18.3",
+        "p-queue",
+        "p-retry",
+        "semver",
+        "uuid@10.0.0"
+      ],
+      "optionalPeers": [
+        "openai@5.9.0_zod@4.0.5_ws@8.18.3"
+      ],
+      "tarball": "https://registry.npmmirror.com/langsmith/-/langsmith-0.1.68.tgz"
+    },
     "langsmith@0.1.68_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
       "integrity": "sha512-otmiysWtVAqzMx3CJ4PrtUBhWRG5Co8Z4o7hSZENPjlit9/j3/vm3TSvbaxpDYakZxtMjhkcJTqrdYFipISEiQ==",
       "dependencies": [
@@ -1350,20 +1550,20 @@
       ],
       "tarball": "https://registry.npmmirror.com/langsmith/-/langsmith-0.1.68.tgz"
     },
-    "langsmith@0.3.45_openai@5.9.0__zod@4.0.5__ws@8.18.3_zod@4.0.5": {
+    "langsmith@0.3.45_openai@5.9.0__zod@3.25.76__ws@8.18.3_zod@3.25.76": {
       "integrity": "sha512-+LNOy/Uv0OWbtcsKHhrVenGLkS8CaM/9Vd2/95QzgQ54YokXlD9sH5LNRNRqxJAMt/NsqoIbZSoXj6rt96e8hw==",
       "dependencies": [
         "@types/uuid",
         "chalk",
         "console-table-printer",
-        "openai@5.9.0_zod@4.0.5_ws@8.18.3",
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3",
         "p-queue",
         "p-retry",
         "semver",
         "uuid@10.0.0"
       ],
       "optionalPeers": [
-        "openai@5.9.0_zod@4.0.5_ws@8.18.3"
+        "openai@5.9.0_zod@3.25.76_ws@8.18.3"
       ],
       "tarball": "https://registry.npmmirror.com/langsmith/-/langsmith-0.3.45.tgz"
     },
@@ -1549,6 +1749,13 @@
       "integrity": "sha512-1MQz1Ed8z2yckoBeSfkQHHO9K1yDRxxtotKSJ9yvcTUUxSvfvzEq5GwBrjjHEpMlq/k5gvXdmJ1SbYxWtpNoVg==",
       "tarball": "https://registry.npmmirror.com/num-sort/-/num-sort-2.1.0.tgz"
     },
+    "ollama@0.5.16": {
+      "integrity": "sha512-OEbxxOIUZtdZgOaTPAULo051F5y+Z1vosxEYOoABPnQKeW7i4O8tJNlxCB+xioyoorVqgjkdj+TA1f1Hy2ug/w==",
+      "dependencies": [
+        "whatwg-fetch"
+      ],
+      "tarball": "https://registry.npmmirror.com/ollama/-/ollama-0.5.16.tgz"
+    },
     "once@1.4.0": {
       "integrity": "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==",
       "dependencies": [
@@ -1575,6 +1782,19 @@
       "tarball": "https://registry.npmmirror.com/openai/-/openai-4.104.0.tgz"
     },
     "openai@5.9.0_ws@8.18.3_zod@3.25.76": {
+      "integrity": "sha512-cmLC0pfqLLhBGxE4aZPyRPjydgYCncppV2ClQkKmW79hNjCvmzkfhz8rN5/YVDmjVQlFV+UsF1JIuNjNgeagyQ==",
+      "dependencies": [
+        "ws",
+        "zod@3.25.76"
+      ],
+      "optionalPeers": [
+        "ws",
+        "zod@3.25.76"
+      ],
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/openai/-/openai-5.9.0.tgz"
+    },
+    "openai@5.9.0_zod@3.25.76_ws@8.18.3": {
       "integrity": "sha512-cmLC0pfqLLhBGxE4aZPyRPjydgYCncppV2ClQkKmW79hNjCvmzkfhz8rN5/YVDmjVQlFV+UsF1JIuNjNgeagyQ==",
       "dependencies": [
         "ws",
@@ -2076,6 +2296,10 @@
       ],
       "tarball": "https://registry.npmmirror.com/whatwg-encoding/-/whatwg-encoding-3.1.1.tgz"
     },
+    "whatwg-fetch@3.6.20": {
+      "integrity": "sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==",
+      "tarball": "https://registry.npmmirror.com/whatwg-fetch/-/whatwg-fetch-3.6.20.tgz"
+    },
     "whatwg-mimetype@4.0.0": {
       "integrity": "sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==",
       "tarball": "https://registry.npmmirror.com/whatwg-mimetype/-/whatwg-mimetype-4.0.0.tgz"
@@ -2168,6 +2392,7 @@
       "npm:@lancedb/lancedb@*",
       "npm:@langchain/community@*",
       "npm:@langchain/core@0.1.48",
+      "npm:@langchain/ollama@0.1.5",
       "npm:@langchain/openai@0.0.22",
       "npm:cheerio@*",
       "npm:faiss-node@*",

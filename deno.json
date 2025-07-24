@@ -15,6 +15,8 @@
     "vectordb": "npm:/vectordb",
     "@lancedb/lancedb": "npm:/@lancedb/lancedb",
     "@langchain/community/": "npm:/@langchain/community/",
+    "@langchain/ollama": "npm:/@langchain/ollama@0.1.5",
+    "@langchain/ollama/": "npm:/@langchain/ollama@0.1.5/",
     "faiss-node": "npm:/faiss-node",
     "openai": "npm:/openai",
     "zod-to-json-schema": "npm:/zod-to-json-schema"
