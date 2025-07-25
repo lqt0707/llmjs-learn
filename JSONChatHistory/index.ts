@@ -14,7 +14,7 @@ export interface JSONChatHistoryInput {
 }
 
 export class JSONChatHistory extends BaseListChatMessageHistory {
-  lc_namescpce = ["langchain", "stores", "message"];
+  lc_namespace = ["langchain", "stores", "message"];
 
   sessionId: string;
   dir: string;
@@ -32,6 +32,7 @@ export class JSONChatHistory extends BaseListChatMessageHistory {
         this.saveMessagesToFile([]);
         return [];
       }
+
       const data = fs.readFileSync(filePath, { encoding: "utf-8" });
       const storedMessages = JSON.parse(data) as StoredMessage[];
       return mapStoredMessagesToChatMessages(storedMessages);
@@ -54,7 +55,7 @@ export class JSONChatHistory extends BaseListChatMessageHistory {
   }
 
   async clear(): Promise<void> {
-    const filePath = path.join(this.dir, `${this.dir}.json`);
+    const filePath = path.join(this.dir, `${this.sessionId}.json`);
     try {
       fs.unlinkSync(filePath);
     } catch (error) {
@@ -64,12 +65,8 @@ export class JSONChatHistory extends BaseListChatMessageHistory {
 
   private async saveMessagesToFile(messages: BaseMessage[]): Promise<void> {
     const filePath = path.join(this.dir, `${this.sessionId}.json`);
-
     const serializedMessages = mapChatMessagesToStoredMessages(messages);
     try {
-      if (!fs.existsSync(this.dir)) {
-        fs.mkdirSync(this.dir);
-      }
       fs.writeFileSync(filePath, JSON.stringify(serializedMessages, null, 2), {
         encoding: "utf-8",
       });

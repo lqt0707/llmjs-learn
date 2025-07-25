@@ -11,7 +11,8 @@
     "prepare-qiu": "ts-node ./rag/prepare-qiu.ts",
     "rag-2": "ts-node ./rag/index.ts",
     "rag-server": "ts-node ./rag/server.ts",
-    "rag-client": "ts-node ./rag/client.ts"
+    "rag-client": "ts-node ./rag/client.ts",
+    "rag-start": "ts-node ./rag/start.ts"
   },
   "dependencies": {
     "@langchain/ollama": "^0.2.3",
@@ -21,5 +22,8 @@
     "langchain": "^0.1.30",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
   }
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "什么是球形闪电",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "原文中没有给出一个“一句话”定义式的答案，专门回答“什么是球形闪电”。  \n全书始终强调它是被严密包裹的潜在武器技术，因此没有出现“气象学上……”之类的解释性文字。",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  }
+]
